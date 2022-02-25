@@ -1,0 +1,17 @@
+source ~/.vimrc
+
+nnoremap <leader>rr :action Run<cr>
+nnoremap <leader>cc :action CleanGradleProject<cr>
+nnoremap <leader>bb :action Build<cr>
+nnoremap <leader>ss :action Android.SyncProject<cr>
+nnoremap <leader>ee :action GotoNextError<cr>
+nnoremap <leader>EE :action GotoPreviousError<cr>
+nnoremap <leader>dd :action Debug<cr>
+nnoremap <leader>lb :action ToggleLineBreakpoint<cr>
+nnoremap <leader>gh :action LocalHistory.ShowHistory<cr>
+nnoremap <leader>ic :action InspectCode<cr>
+nnoremap <leader>em :action ExtractMethod<cr>
+nnoremap <leader>re :action RenameElement<cr>
+nnoremap <leader>rv :action IntroduceVariable<cr>
+nnoremap <leader>rs :action ExtractSuperclass<cr>
+nnoremap <leader>ri :action Inline<cr>
